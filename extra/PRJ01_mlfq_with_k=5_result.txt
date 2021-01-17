@@ -1,0 +1,140 @@
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+policy: MLFQ_SCHED
+MLFQ_K: 5
+init: starting sh
+$ PRJ01_mlfq_test
+MLFQ test start
+[Test 1] default
+Process Pr5
+L0: 10940
+L1: 19535
+L2: 19293
+L3: 23382
+L4: 26850
+ocess 4
+L0: 11008
+L1: 17515
+L2: 20613
+L3: 23654
+L4: 27210
+Process 6
+L0: 11109
+L1: 18299
+L2: 23469
+L3: 23092
+L4Process: 24031
+ 7
+L0: 10573
+L1: 16562
+L2: 21789
+L3: 24894
+L4: 26182
+[Test 1] finished
+[Test 2] priorities
+Process 11
+L0: 16972
+L1: 21579
+L2: 30572
+L3: 30877
+L4: 0
+Process 10
+L0: 18015
+L1: 21665Process 9
+L0: 20108
+L1: 25093
+L2: 28495
+L3: 26304
+L4: 0
+
+L2: 31352
+L3: 28968
+L4: 0
+Process 8
+L0: 19608
+L1: 32337
+L2: 33098
+L3: 6658
+L4: 8299
+[Test 2] finished
+[Test 3] yield
+Process 15
+L0: 20000
+L1: 0
+L2: 0
+L3: 0
+L4: 0
+Process 14
+L0: 20000
+L1: 0
+L2: 0
+L3: 0
+L4: 0
+Process 13
+L0: 20000
+L1: 0
+L2: 0
+L3: 0
+L4: 0
+Process 12
+L0: 20000
+L1: 0
+L2: 0
+L3: 0
+L4: 0
+[Test 3] finished
+[Test 4] sleep
+Process 16
+L0: 500
+L1: 0
+L2: 0
+L3: 0
+L4Process 19
+L0: 500
+L1: 0
+L2: 0
+L3: 0
+L4: 0
+Process 18
+L0: 500
+L1: 0
+L2: 0
+L3: 0
+L4: 0
+Process 17
+L0: 500
+L1: 0
+L2: 0
+L3: 0
+L4: 0
+: 0
+[Test 4] finished
+[Test 5] max level
+Process 20
+L0: 99959
+L1: 41
+L2: 0
+L3: 0
+L4: 0
+Process 21
+L0: 35935
+L1: 64053
+L2: 12
+L3: 0
+L4: 0
+Process 22
+L0: 24616
+L1: 38497
+L2: 36882
+L3: 5
+L4: 0
+Process 23
+L0: 21238
+L1: 31533
+L2: 31592
+L3: 15635
+L4: 2
+[Test 5] finished
+[Test 6] setpriority return value
+done
+[Test 6] finished

@@ -1,0 +1,14 @@
+ELE3021-11797 Operating Systems
+@HYU 2020-Spring
+
+Overview
+This repository contains projects done in ELE3021.
+
+Project 1: Scheduler
+This project is aimed to implements simple schedulers on xv6 such as multilevel queue scheduler (FCFS and Round-robin) and MLFQ schedular (priority scheduler).  
+
+Project 2: Advanced Process Management
+This project is aimed to implements features such as  administrator mode, custom size stack, per-process memory limit, shared memory, and process manager on xv6.
+
+Project 3: Users
+This project is aimed to implements the concept of users on xv6.
